@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
- const { game, newGame, showScore, addTurn, lightsOn, showTurns } = require("../game");
+ const { game, newGame, showScore, addTurn, lightsOn, showTurns } = require("../scripts/game");
 
  beforeAll(() => {
      let fs = require("fs");
